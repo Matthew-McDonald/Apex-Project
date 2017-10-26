@@ -1,0 +1,25 @@
+#table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+tr:nth-child(odd) {
+  background: #ccdced;
+}
+td, th {
+  padding:.5em
+}
+td {
+  border: 1px solid black;
+}
+.headers {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: serif;
+}
+.peopleContainer {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  font-family: "Raleway";
+}
